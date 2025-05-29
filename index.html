@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Conexão Solidária"
+        content="Conexão solidária: conheça instituições sérias e saiba como participar de ações sociais transformadoras">
+    <title>Conexão Solidária</title>
+    <link rel="icon" href="image/icon/heart.png">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="image/carousel/hands.jpg" alt="Foto de duas pessoas de mão dadas.">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="image/carousel/hope.jpg"
+                        alt="Pedra em forma de coração escrito esperança em inglês.">
+                </div>
+                <div data-bs-interval="7000" class="carousel-item">
+                    <img class="d-block w-100" src="image/carousel/make-a-change.jpg"
+                        alt="Folha com a mensagem de faça a mudança em inglês.">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev"
+                aria-label="Slide-anterior">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next"
+                aria-label="Próximo slide">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+            <div class="carousel-indicators">
+                <button class="active" data-bs-slide-to="0" type="button" data-bs-target="#carousel">
+                </button>
+                <button data-bs-slide-to="1" type="button" data-bs-target="#carousel">
+                </button>
+                <button data-bs-slide-to="2" type="button" data-bs-target="#carousel">
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <nav id="cabecalho" class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <button type="button" class="navbar-toggler navbar-dark bg-primary mb-2" data-bs-toggle="collapse"
+                data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="menu">
+                <ul class="nav nav-pills navbar-nav">
+                    <li class="nav-item">
+                        <a class="fw-bold text-black nav-link active" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="fw-bold text-black nav-link " href="#instituicao">Instituições</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="fw-bold text-black nav-link " href="#sobre">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="text-white ">
+        <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+            <section id="inicio"
+                class="d-flex flex-column justify-content-center align-items-center text-white text-center position-relative">
+                <div class="text">
+                    <h1>Bem-vindo ao Conexão Solidária!</h1>
+                <h4>Descubra instituições que transformam vidas e saiba como participar dessa mudança</h4>
+                </div>
+            </section>
+
+            <div id="cor-de-fundo">
+                <section id="instituicao">
+                    <div class="container pt-5">
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                <article class="card h-100">
+                                    <header class="card-header text-center">
+                                        <h5>Instituto ampara animal</h5>
+                                    </header>
+                                    <img src="inst-ampara/images/dog-card-1.jpg"
+                                        alt="Imagem de um cachorro para doação">
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <h4 class="card-title flex-grow-1 text-center text-lg-start">Instituto ampara
+                                            animal
+                                        </h4>
+                                        <p class="card-text text-center text-lg-start">Organização não-governamental sem
+                                            fins
+                                            lucrativos, 100% brasileira.
+                                            Com as doações, eles conseguem dar assistencia a animais carentes,
+                                            promover campanhas e desenvolver ações especiais.</p>
+                                        <a class="btn btn-secondary" href="https://institutoamparanimal.org.br/"
+                                            target="_blank" rel="noopener noreferrer">Veja
+                                            mais</a>
+                                    </div>
+                                    <footer class="card-footer text-center text-lg-end">
+                                        postado em <data datatime="2025-05-28">28/05/2025</data>
+                                    </footer>
+                                </article>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                <article class="card h-100">
+                                    <header class="card-header text-center">
+                                        <h5>GRAACC</h5>
+                                    </header>
+                                    <img src="inst-graacc/images/child-card-2.jpg"
+                                        alt="Imagem de uma criança comemorando com luvas de boxe">
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <h4 class="card-title flex-grow-1 text-center text-lg-start">GRAACC - Grupo de
+                                            apoio
+                                            ao
+                                            adolescente e à criança com câncer
+                                        </h4>
+                                        <p class="card-text text-center text-lg-start">Com foco no cuidado e tratamento
+                                            de
+                                            crianças e adolescente com
+                                            câncer, atuam com sensibilidade
+                                            e competência ao lado de pacientes e familiares durante toda a jornada do
+                                            tratamento.</p>
+                                        <a class="btn btn-secondary" href="https://graacc.org.br/" target="_blank"
+                                            rel="noopener noreferrer">Veja mais</a>
+                                    </div>
+                                    <footer class="card-footer text-center text-lg-end">
+                                        postado em <data datatime="2025-05-28">28/05/2025</data>
+                                    </footer>
+                                </article>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                                <article class="card h-100">
+                                    <header class="card-header text-center">
+                                        <h5>PPI</h5>
+                                    </header>
+                                    <img src="inst-ppi/images/card.jpg" alt="Imagem de um idoso se exercitando">
+                                    <div class="card-body d-flex flex-column justify-content-between">
+                                        <h4 class="card-title flex-grow-1 text-center text-lg-start">PPI - Grupo de
+                                            apoio e
+                                            acompanhamento da pessoa idosa.</h4>
+                                        <p class="card-text text-center text-lg-start">Essa organização acompanha e
+                                            promove
+                                            a
+                                            dignidade da pessoa idosa em
+                                            todo o Brasil,
+                                            levando apoio, cuidado e relação. Apoie essa causa para que cresça
+                                            ainda
+                                            mais
+                                            e chegue até a sua cidade.</p>
+                                        <a class="btn btn-secondary" href="https://ppi.org.br/" target="_blank"
+                                            rel="noopener noreferrer">Veja mais</a>
+                                    </div>
+                                    <footer class="card-footer text-center text-lg-end">
+                                        postado em <data datatime="2025-05-28">28/05/2025</data>
+                                    </footer>
+                                </article>
+                            </div>
+                        </div>
+                </section>
+                <section id="sobre">
+                    <div class="container pt-3 pb-5 text-center  text-dark">
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <h2>Sobre o Conexão solidária</h2>
+                            <img src="image/image-sobre/mao-coracao.png" role="img"
+                                aria-label="Imagem colorida de uma mão segurando um coração"
+                                alt="Imagem colorida de uma mão segurando um coração">
+                        </div>
+
+                        <h5>
+                            Este site foi criado com o objetivo de reunir e divulgar instituições sérias que atuam em
+                            diversas
+                            causas sociais.
+                            Acreditamos que a informação é o primeiro passo para transformar vidas e promover uma
+                            sociedade
+                            mais
+                            justa e solidária.
+                        </h5>
+                        <h5>
+                            Aqui você encontra informações sobre organizações que lutam por direitos dos animais, apoio
+                            a
+                            crianças com doenças graves, cuidado com idosos e muito mais.
+                        </h5>
+                        <h5>
+                            Apoie, compartilhe e faça parte dessa rede de solidariedade!
+                        </h5>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center py-3 bg-light">
+        <small>&copy; 2025 Conexão Solidária. Todos os direitos reservados.</small>
+    </footer>
+
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <script>
+
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                const navbarToggler = document.querySelector('.navbar-toggler');
+                if (navbarToggler && navbarToggler.getAttribute('aria-expanded') === 'true') {
+                    navbarToggler.click();
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>

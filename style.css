@@ -1,0 +1,74 @@
+/* Definindo o tamanho da rolagem ao clicar nos links do menu */
+html {
+    scroll-padding-top: 110px;
+    scroll-behavior: smooth;
+}
+
+/* Definindo o tamanho da rolagem ao clicar nos links do menu */
+@media (min-width: 990px) {
+    html {
+    scroll-padding-top: 0px;
+    scroll-behavior: smooth;
+    }
+}
+
+/* Aplicando trasnparencia no menu */
+nav {
+    background: rgba(252, 252, 252, 0.253);
+}
+
+/* Aplicando transparencia ao botão ativo */
+.nav-pills .nav-link.active {
+    background-color: rgba(252, 252, 252, 0.562);
+}
+
+/* Aplicando efeito Hero para a imagem da seção inicio */
+#inicio {
+    min-height: 100vh;
+    background: url("image/background-inicio/humanitario.jpg") no-repeat center
+    center;
+    background-size: cover;
+    width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+/* Aplicando o texto para cima da image e deixanod um pouco transparente */
+.text {
+    z-index: 1;
+}
+.text h1,h4{
+    color:rgba(255, 255, 255, 0.5) ;
+}
+
+/* Alterando a opacidade do botão do mobile */
+.bg-primary {
+    opacity: 0.7;
+}
+
+/* Aplicando efeito Hero para a imagem da seção inicio */
+#inicio::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* Aplicando background da seção instituição e sobre */
+#cor-de-fundo {
+    background: url(image/background-inst-sobre/gradient.jpg) no-repeat center
+    center;
+    background-size: cover;
+}
+
+/* Aplicação de sombra para os cards */
+article {
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Adicionando sombra aos h5 para facilitação de leitura */
+#sobre h5 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
